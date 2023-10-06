@@ -3,7 +3,7 @@
 const todosList = document.querySelector(".todos-list");
 const input1 = document.querySelector(".input1");
 const btn = document.querySelector(".btn");
-
+const input2=document.querySelector(".input2")
 
 
 
@@ -30,9 +30,12 @@ function addandRemoveTodo() {
       todosList.removeChild(newItem); // "li" öğesini listeden kaldırır.
     });
   
-    newItem.appendChild(newIcon);
-    todosList.appendChild(newItem);
-    input1.value=""
+    if (input1.value!="") {
+        newItem.appendChild(newIcon);
+        todosList.appendChild(newItem);
+        input1.value=""
+    }
+ 
   }
 
 
@@ -41,3 +44,20 @@ function addandRemoveTodo() {
 btn.addEventListener("click",addandRemoveTodo );
 
 
+function filterTodos() {
+    const filterText = input2.value.toLowerCase(); // Küçük harfe dönüştürerek karşılaştırma
+    const todoItems = todosList.querySelectorAll(".todo-item");
+  
+    todoItems.forEach((item) => {
+      const todoText = item.textContent.toLowerCase();
+      if (todoText.includes(filterText)) {
+        item.style.display = "block"; 
+      } else {
+        item.style.display = "none"; 
+      }
+    });
+  }
+  
+  input2.addEventListener("input", filterTodos);
+
+  
