@@ -19,7 +19,7 @@
 .todo .todo-container{
 
  border:2px solid rgb(224, 219, 219);
- width: 100%;
+ width: 70%;
  height: 100%;
 
  display: flex;
@@ -77,6 +77,45 @@ margin-left: 1rem;
 margin-bottom: 2rem;
 
 }
+
+.todos{
+
+width: 100%;
+
+
+}
+
+.todos-list{
+
+list-style: none;
+
+}
+
+.todos-list .todo-item{
+ position: relative;
+    width: 70%;
+    padding: 1rem 1rem;
+    outline: none;
+    margin: 2rem 1rem;
+    border:1px solid #ced4da;
+    border-radius: 10px;
+
+}
+
+
+.todos-list .todo-item i{
+
+
+
+    position: absolute;
+    right: -5%;
+    top: 25%;
+    width: 5rem;
+    height: 5rem;
+    color: red;
+    
+}
+
 
 
 .todo .line{
