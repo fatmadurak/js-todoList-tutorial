@@ -6,18 +6,22 @@
 
 .todo {
  
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+  
+
 }
 
 .todo .todo-container {
     border: 2px solid rgb(224, 219, 219);
-    width: 70%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin-top: 1rem;
+    
+
 }
 
 .todo .todo-title {
@@ -27,6 +31,8 @@
     padding: 1rem;
     font-size: 20px;
     opacity: 0.9;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .todo input {
