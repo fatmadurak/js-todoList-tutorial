@@ -1,63 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-  />
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="todo">
+      <div class="todo-container">
+        <p class="todo-title">Todo List</p>
 
+        <input
+          class="input1"
+          type="text"
+          placeholder="Bir Todo Girin"
+          value=""
+        />
 
+        <button class="btn">Todo Ekleyin</button>
 
-   <div class="todo">
+        <div class="line"></div>
+        <h2 class="heading">Todolar</h2>
 
-    <div class="todo-container">
+        <input
+          class="input2"
+          type="text"
+          placeholder="Bir Todo Arayın"
+          value=""
+        />
 
-     <p class="todo-title">Todo List</p>
+        <div class="todos">
+          <ul class="todos-list"></ul>
+        </div>
 
-     <input class="input1" type="text" placeholder="Bir Todo Girin" value="" />
-    
-     <button class="btn">Todo Ekleyin</button>
-
-
-     <div class="line">
-        
-     </div>
-     <h2 class="heading">Todolar</h2>
-
-     <input class="input2"  type="text" placeholder="Bir Todo Arayın" value=""/>
-
-
-     <div class="todos">
-        
-        <ul class="todos-list">
-         
-        
-        </ul>
-  
-       </div>
-
-      <div class="line">
-        
+        <div class="line"></div>
       </div>
-
- 
-
     </div>
-  
 
-
-
-
-   </div>
-
-
-    
     <script src="main.js"></script>
-</body>
+  </body>
 </html>

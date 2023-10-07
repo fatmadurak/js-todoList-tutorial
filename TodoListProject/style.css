@@ -1,100 +1,94 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .todo {
- 
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .todo .todo-container {
-    border: 2px solid rgb(224, 219, 219);
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    
-
+  border: 2px solid rgb(224, 219, 219);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 
 .todo .todo-title {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.03);
-    margin-top: 0;
-    padding: 1rem;
-    font-size: 20px;
-    opacity: 0.9;
-    text-align: center;
-    text-transform: uppercase;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.03);
+  margin-top: 0;
+  padding: 1rem;
+  font-size: 20px;
+  opacity: 0.9;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .todo input {
-    width: 70%;
-    padding: 0.8rem;
-    outline: none;
-    margin: 2rem 1rem;
-    border: 1px solid #ced4da;
-    border-radius: 10px;
+  width: 70%;
+  padding: 0.8rem;
+  outline: none;
+  margin: 2rem 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
 }
 
 .todo input:focus {
-    border-color: red;
+  border-color: red;
 }
 
 .todo .btn {
-    background-color: red;
-    color: white;
-    border: none;
-    border-radius: 0.5rem;
-    padding: 0.8rem;
-    margin-left: 1rem;
-    margin-bottom: 2rem;
-    outline: none;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  outline: none;
 }
 
 .todos {
-    width: 100%;
+  width: 100%;
 }
 
 .todos-list {
-    list-style: none;
+  list-style: none;
 }
 
 .todos-list .todo-item {
-    position: relative;
-    width: 70%;
-    padding: 1rem;
-    outline: none;
-    margin: 2rem 1rem;
-    border: 1px solid #ced4da;
-    border-radius: 10px;
+  position: relative;
+  width: 70%;
+  padding: 1rem;
+  outline: none;
+  margin: 2rem 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
 }
 
 .todos-list .todo-item i {
-    position: absolute;
-    right: -5%;
-    top: 25%;
-    width: 5rem;
-    height: 5rem;
-    color: red;
+  position: absolute;
+  right: -5%;
+  top: 25%;
+  width: 5rem;
+  height: 5rem;
+  color: red;
 }
 
 .todo .line {
-    width: 100%;
-    margin: 2rem auto;
-    height: 0.125rem;
-    background-color: rgba(24, 23, 23, 0.03);
+  width: 100%;
+  margin: 2rem auto;
+  height: 0.125rem;
+  background-color: rgba(24, 23, 23, 0.03);
 }
 
 .todo .heading {
-    padding-left: 1rem;
-    font-weight: 700;
+  padding-left: 1rem;
+  font-weight: 700;
 }
-
